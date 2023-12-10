@@ -13,7 +13,7 @@ const Hero = () => {
                     <button className="btn btn-sm btn-neutral">Browse Projects</button>
                 </div>
             </div>
-            <div>
+            <div className="-z-10">
                 <Lottie className="mt-10 md:h-[70vh]" animationData={Development}></Lottie>
             </div>
         </div>
