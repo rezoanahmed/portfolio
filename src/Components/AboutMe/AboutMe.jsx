@@ -1,6 +1,8 @@
 import { SiGmail } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiWhatsapp } from "react-icons/si";
+import { MdDownload } from "react-icons/md";
+
 import { Link } from "react-router-dom";
 
 
@@ -17,13 +19,16 @@ const AboutMe = () => {
                         <p className='text-3xl font-bold'>Get to know me<span className='text-red-600'>!</span></p>
                         <p className='mt-5 text-xl'>I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. <br /><br /> I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
                     </div>
+                    <div className="mt-10 w-full flex">
+                        <Link to='' className="btn btn-outline text-center text-xl mx-auto">Download Resume<MdDownload className="text-3xl"></MdDownload></Link>
+                    </div>
                     <div className="mt-10 divider">
                         <h1 className="text-3xl font-bold">Keep in touch</h1>
                     </div>
                     <div className="mt-10 flex justify-center items-center gap-10">
-                        <Link to='https://www.linkedin.com/in/rezoan-ahmed-12848517a/' target="_blank" className="btn btn-circle text-4xl btn-lg"><SiLinkedin></SiLinkedin></Link>
-                        <Link to='https://wa.me/+8801855673393' target="_blank" className="btn btn-circle text-4xl btn-lg"><SiWhatsapp></SiWhatsapp></Link>
-                        <Link to='mailto:rezoan.cse.2017@gmail.com' target="_blank" className="btn btn-circle text-4xl btn-lg"><SiGmail></SiGmail></Link>
+                        <Link to='https://www.linkedin.com/in/rezoan-ahmed-12848517a/' target="_blank" className="btn btn-circle btn-outline border-none text-4xl btn-lg"><SiLinkedin></SiLinkedin></Link>
+                        <Link to='https://wa.me/+8801855673393' target="_blank" className="btn btn-circle btn-outline border-none text-4xl btn-lg"><SiWhatsapp></SiWhatsapp></Link>
+                        <Link to='mailto:rezoan.cse.2017@gmail.com' target="_blank" className="btn btn-circle btn-outline border-none text-4xl btn-lg"><SiGmail></SiGmail></Link>
                     </div>
 
 
