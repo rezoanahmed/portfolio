@@ -20,9 +20,10 @@ const Projects = () => {
 
     console.log(project);
     return (
-        <div>
+        <div className="mt-20">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+            <div className="p-4 md:p-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 md:gap-10">
                 {
                     project?.map(element=><ProjectsCard key={element.id} project={element}></ProjectsCard>)
                 }

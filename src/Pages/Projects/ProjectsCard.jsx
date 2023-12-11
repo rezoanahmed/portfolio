@@ -1,17 +1,18 @@
+import { Link } from "react-router-dom";
 
 
 const ProjectsCard = ({ project }) => {
     return (
-        <div className="mt-20 p-4">
-            <div className="card bg-base-100 shadow-xl image-full">
-                <figure><img src={project?.thumbnail} alt="Shoes" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">{project?.name}</h2>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Live Link</button>
-                    </div>
+        <div className="">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+                <h1 className="text-4xl font-bold mb-2">{project.name}</h1>
+                <div className="flex gap-2">
+                    <Link to={project.website} target="_blank" className="btn btn-outline btn-sm">Live Link</Link>
+                    <Link to={project.client} target="_blank" className="btn btn-outline btn-sm">Client Repository</Link>
+                    <Link to={project.server} target="_blank" className="btn btn-outline btn-sm">Server Repository</Link>
                 </div>
             </div>
+                <img src={project.thumbnail} alt="" className="mt-2 rounded-md brightness-50" />
         </div>
     );
 };

@@ -1,37 +1,37 @@
 [
     {
         "name": "Travego",
-        "website": "",
-        "server": "",
-        "client": "",
+        "website": "https://traveg0.web.app/",
+        "server": "https://github.com/rezoanahmed/travego-server",
+        "client": "https://github.com/rezoanahmed/travego-client",
         "thumbnail": "https://i.ibb.co/PgHFHJV/Screenshot-200.png"
     },
     {
         "name": "Cars Palace",
-        "website": "",
-        "server": "",
-        "client": "",
+        "website": "https://cars-palace.web.app/",
+        "server": "https://github.com/rezoanahmed/cars-palace-server",
+        "client": "https://github.com/rezoanahmed/cars-palace-client",
         "thumbnail": "https://i.ibb.co/pbRvJ2c/Screenshot-201.png"
     },
     {
         "name": "Portfolio",
         "website": "",
-        "server": "",
+        "server": "https://github.com/rezoanahmed/portfolio",
         "client": "",
         "thumbnail": "https://i.ibb.co/v11T7vg/Screenshot-203.png"
     },
     {
         "name": "Fitness Zone",
-        "website": "",
+        "website": "https://gym-zone-abd0e.web.app/",
         "server": "",
-        "client": "",
+        "client": "https://github.com/rezoanahmed/fitness-zone",
         "thumbnail": "https://i.ibb.co/gtbFr4X/Screenshot-202.png"
     },
     {
         "name": "News Wave",
-        "website": "",
-        "server": "",
-        "client": "",
+        "website": "https://newswaved.web.app/",
+        "server": "https://github.com/rezoanahmed/newswave-server",
+        "client": "https://github.com/rezoanahmed/newswave-client",
         "thumbnail": "https://i.ibb.co/51gNNjw/Screenshot-2023-12-11-211145.png"
     }
 ]
