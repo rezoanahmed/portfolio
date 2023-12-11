@@ -4,7 +4,7 @@ const Contact = () => {
         <div className="mt-10">
             
             <div className="mt-10">
-                <form className="max-w-6xl flex flex-col gap-4 p-4 md:p-16 bg-base-200 mx-auto shadow-[#2d3436] shadow-md  rounded-md">
+                <form className="mb-20 max-w-6xl flex flex-col gap-4 p-4 md:p-16 bg-base-200 mx-auto shadow-[#2d3436] shadow-md  rounded-md">
                 <div>
                 <h1 className="font-bold text-4xl">For any further queries<span className="text-red-600">.</span></h1>
             </div>
